@@ -2,7 +2,7 @@
 
 TinyMCE plugin template built upon React.
 
-Note: Use yarn instead of npm to in order to have the same dependencies versions across multiple devices.
+Note: Use yarn instead of npm in order to have the same dependencies versions across multiple devices.
 
 ## Installation
 
@@ -33,4 +33,4 @@ yarn run build
     - Render react application in Plugin.ts and not in components folder.
 - Configure linter
 - Configure prettier
-- Add linter to webpack production build
+- Add linter step to webpack production build
