@@ -21,6 +21,8 @@
     "@ephox/mcagar": "latest",
     "@ephox/swag": "latest",
     "@ephox/tslint-rules": "latest",
+    "@types/react": "^16.9.16",
+    "@types/react-dom": "^16.9.4",
     "awesome-typescript-loader": "^5.2.1",
     "babel-loader": "^8.2.2",
     "css-loader": "^5.0.2",
@@ -37,12 +39,11 @@
     "ts-loader": "^7.0.1",
     "tslib": "^1.9.3",
     "tslint": "^5.11.0",
+    "tslint-webpack-plugin": "^2.1.0",
     "typescript": "^3.1.6",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack": "^4.46.0",
-    "webpack-livereload-plugin": "^2.1.1",
-    "@types/react": "^16.9.16",
-    "@types/react-dom": "^16.9.4"
+    "webpack-livereload-plugin": "^2.1.1"
   },
   "files": [
     "lib/main",
@@ -61,8 +62,8 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@types/tinymce": "^4.6.0",
+    "react": "^16.12.0",
     "react-dom": "^17.0.1",
-    "style-loader": "^2.0.0",
-    "react": "^16.12.0"
+    "style-loader": "^2.0.0"
   }
 }

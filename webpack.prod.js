@@ -5,6 +5,7 @@ const jsDestFile = path.resolve('dist/plugin.js');
 
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const TSLintPlugin = require('tslint-webpack-plugin');
 
 module.exports = {
   options: {
@@ -18,7 +19,12 @@ module.exports = {
     optimization: {
       minimizer: [new UglifyJsPlugin()],
     },
-    plugins: [new MiniCssExtractPlugin()],
+    plugins: [
+      new MiniCssExtractPlugin(),
+      new TSLintPlugin({
+        files: ['./src/**/*.ts', './src/**/*.tsx']
+      })
+    ],
 
     module: {
       rules: [{

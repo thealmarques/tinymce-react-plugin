@@ -9,6 +9,6 @@ export const setupReactApp = (element: Element) => {
 
     render(
         <App></App>,
-        element.insertAdjacentElement('beforeend', document.createElement('div'))
+        element.insertAdjacentElement('beforeend', document.createElement('div')),
     );
 };
