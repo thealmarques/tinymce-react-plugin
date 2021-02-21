@@ -28,7 +28,5 @@ yarn run build
 ```
 
 ## Todo
-- Configure linter
 - Configure prettier
-- Add linter step to webpack production build
 - Configure JEST for unit testing
