@@ -1,6 +1,6 @@
 const path = require('path');
 
-const tsDemoSourceFile = path.resolve('src/demo/ts/Demo.ts');
+const tsDemoSourceFile = path.resolve('/demo/ts/Demo.ts');
 const jsDemoDestFile = path.resolve('scratch/compiled/demo.js');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const LiveReloadPlugin = require('webpack-livereload-plugin');
