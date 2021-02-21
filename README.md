@@ -29,4 +29,4 @@ yarn run build
 
 ## Todo
 - Configure prettier
-- Configure JEST for unit testing
+- Configure husky for pre-commits (jest && ts-lint)
