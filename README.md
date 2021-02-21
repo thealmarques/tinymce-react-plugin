@@ -17,7 +17,7 @@ yarn
 yarn start
 ```
 
-Use live reload in file src/demo/html/index.html for hot reload.
+Use live reload server extension (VSCode) in file src/demo/html/index.html for hot reload.
 
 ## How to build
 
