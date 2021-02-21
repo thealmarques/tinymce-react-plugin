@@ -8,6 +8,6 @@ describe('Dropdown Component', () => {
         const result = a + b;
 
         // Then
-        expect(result).toBe(3);
+        expect(result).toBe(2);
     });
 });
