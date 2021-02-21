@@ -29,8 +29,8 @@ yarn run build
 
 ## Todo
 - Refactor file structure
-    a. Deprecate /ts/core
-    b. Render react application in Plugin.ts and not in components folder.
+    - Deprecate /ts/core
+    - Render react application in Plugin.ts and not in components folder.
 - Configure linter
 - Configure prettier
 - Add linter to webpack production build
