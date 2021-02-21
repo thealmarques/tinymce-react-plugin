@@ -10,7 +10,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "jest && tslint"
+      "pre-commit": "echo 'testing'"
     }
   },
   "keywords": [],
