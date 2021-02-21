@@ -1,3 +1,3 @@
-# scriptDropdown TinyMCE Plugin
+# TinyMCE Plugin template
 
-Welcome stranger! This is a repo containing the scriptDropdown TinyMCE plugin.
+TinyMCE plugin template built upon React.
