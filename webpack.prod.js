@@ -1,6 +1,6 @@
 const path = require('path');
 
-const tsSourceFile = path.resolve('src/main/ts/Main.ts');
+const tsSourceFile = path.resolve('src/Main.ts');
 const jsDestFile = path.resolve('dist/plugin.js');
 
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");

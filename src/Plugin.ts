@@ -1,12 +1,12 @@
 import { Editor, TinyMCE } from 'tinymce';
-import { Dropdown } from './core/components/dropdown';
+import { setupReactApp } from './application/App';
 
 declare const tinymce: TinyMCE;
 
 const setup = (editor: Editor) => {
   editor.on('load', () => {
     const menu = document.querySelector('.tox-menubar');
-    Dropdown(menu);
+    setupReactApp(menu);
   });
 };
 

@@ -1,4 +1,4 @@
-import Plugin from '../../main/ts/Plugin';
+import Plugin from '../../Plugin';
 
 declare let tinymce: any;
 
