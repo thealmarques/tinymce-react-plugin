@@ -1,0 +1,12 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+      "@ephox/tslint-rules/tslint.json"
+  ],
+  "variable-name": {
+    "allow-pascal-case": true
+  },
+  "jsRules": {},
+  "rules": {},
+  "rulesDirectory": []
+}

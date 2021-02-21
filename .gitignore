@@ -1,0 +1,23 @@
+// .gitnignore
+
+node_modules/
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+changelog.txt
+
+.DS_Store
+*~
+*.iws
+*.sublime-workspace
+.cache
+/lib
+/dist
+/scratch
+node_modules
+/config/repl
+/*.log
+ephox-*.tgz
+package-lock.json
+jenkins-plumbing

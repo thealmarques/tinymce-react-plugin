@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "es5",
+    "module": "es2015",
+    "importHelpers": true,
+    "lib": ["es2015", "DOM"],
+    "declaration": true,
+    "noUnusedLocals": true,
+    "sourceMap": true,
+    "outDir": "lib",
+    "baseUrl": ".",
+    "skipLibCheck": true,
+    "jsx": "react",
+  },
+  "include": [
+    "src/demo/ts",
+    "src/main/ts",
+    "src/test/ts",
+    "node_modules/@ephox/**/*/api/Main.d.ts"
+  ]
+}

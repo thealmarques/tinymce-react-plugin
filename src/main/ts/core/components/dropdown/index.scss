@@ -1,0 +1,11 @@
+.sacode {
+    background-color: red !important;
+    margin-left: 20px !important;
+    list-style: none;
+    z-index: 100;
+
+    li {
+        cursor: pointer !important;
+        user-select: none;
+    }
+}
