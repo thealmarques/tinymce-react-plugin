@@ -1,8 +1,6 @@
 # TinyMCE Plugin template
 
-TinyMCE plugin template built upon React.
-
-Note: Use yarn instead of npm in order to have the same dependencies versions across multiple devices.
+TinyMCE plugin template built with React, Typescript, Jest, and Webpack.
 
 ## Installation
 
@@ -17,7 +15,7 @@ yarn
 yarn start
 ```
 
-Use live reload server extension (VSCode) in file src/demo/html/index.html for hot reload.
+Use live reload server extension (VSCode) in file /demo/html/index.html for hot reload.
 
 ## How to build
 
@@ -26,7 +24,3 @@ For production environments
 ```sh
 yarn run build
 ```
-
-## Todo
-- Configure prettier
-- Configure husky for pre-commits (jest && ts-lint)
