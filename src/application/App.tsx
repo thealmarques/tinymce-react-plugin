@@ -4,11 +4,11 @@ import { Dropdown } from './components/dropdown';
 
 export const setupReactApp = (element: Element) => {
     const App = () => (
-        <Dropdown></Dropdown>
+        <Dropdown />
     );
 
     render(
-        <App></App>,
+        <App />,
         element.insertAdjacentElement('beforeend', document.createElement('div')),
     );
 };
